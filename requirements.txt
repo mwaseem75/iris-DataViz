@@ -1,5 +1,6 @@
-sqlalchemy-iris
-streamlit
-pandas
-pygwalker
+sqlalchemy-iris==0.20.0
+streamlit==1.31.1
+pandas==2.2.3
+pygwalker==0.5.0.1
+tornado==6.5.7
 
