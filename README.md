@@ -48,6 +48,12 @@ Application already imported car-related data. In order to view the data navigat
 
 ## Run Streamlit Web Application
 To run the application Navigate to [**http://localhost:8051**](http://localhost:8051) 
+
+On macOS, you need to start the application manually. Run the following command inside the container:
+```
+streamlit run /irisdev/app/src/python/dataviz/app.py --server.port=8051 --server.address=0.0.0.0 
+```
+
 Select Namespace,Schema and table. Click on Data tab to view the data
 ![image](https://github.com/user-attachments/assets/5aa606ef-a1ea-43bb-a7d9-419b6992902c)
 
